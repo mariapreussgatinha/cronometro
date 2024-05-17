@@ -3,8 +3,8 @@
 :root{
     --branco: rgb(255, 255, 255);
     --cor-de-fundo: #3b3e41;
-    --fundo-senha: #cc6ac7;
-    --fundo-texto: #833769;
+    --fundo-senha: #f7d726;
+    --fundo-texto:rgba #ff00004d;
     --borda: #e2d8e6;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
@@ -18,7 +18,7 @@ body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
-    background-image: url(lulu);
+    background-image: url(car);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -131,14 +131,14 @@ label{
 }
 .fraca{
     width: 25%;
-    background-color: #0a0025;
+    background-color: #ffb13c;
 }
 .media{
-    background-color: #6f21c9;
+    background-color: #d68e07;
     width: 50%;
 }
 .forte{
-    background-color: #9343fc;
+    background-color: #a15803;
     width: 100%;
 }
 
